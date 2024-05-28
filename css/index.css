@@ -1,0 +1,162 @@
+body {
+	margin: 0;
+	font-family: Poppins;
+	background-color: #443c3c;
+}
+
+body, html {
+	scroll-behavior: smooth;
+}
+
+.naslovna {
+	width: 100%;
+	height: 100vh;
+	max-height: 100vh;
+	background-image: url("../slike/index/naslovna_slika.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+	.naslovna p {
+		margin: 0px;
+		font-size: 50px;
+		text-align: center;
+		color: white;
+		text-shadow: 1px 1px 10px #fd02b6, 1px 1px 10px #fd02b6;
+	}
+
+
+.onama-slika {
+	width: 100%;
+	height: 1000px;
+	background-image: url("../slike/index/Onama_slika.jpg");
+	background-size: cover;
+}
+
+	.onama-slika p {
+		margin-left: 1000px;
+		margin-right:5vh;
+		margin-top: -60vh;
+		text-shadow: 1px 1px 10px #fd02b6, 1px 1px 10px #fd02b6;
+		color: #FDD5FF;
+		font-size: 25px;
+	}
+
+.onama-opis-slika {
+	image: url("../slike/index/Onama_opis_slika.jpg");
+}
+
+nav {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	position: fixed;
+	height: 7.5vh;
+	width: 100%;
+	z-index: 2;
+	padding: 15px;
+	background-color: rgba(0, 0, 0,0.5);
+}
+
+	nav a {
+		text-decoration:;
+		color: white;
+		margin: 10px;
+		transition: 0.5s ease-in-out;
+		text-decoration: none;
+	}
+
+		nav a:hover {
+			border-radius: 1%;
+			font-size: 32px;
+			text-shadow: 1px 1px 10px #fd02b6, 1px 1px 10px #fd02b6;
+		}
+
+		nav a:link {
+			color: white;
+			text-decoration: none;
+		}
+
+		nav a:visited {
+			color: white;
+			text-decoration: none;
+		}
+
+.onama-shadow img {
+	border-radius: 1%;
+	background-color: #fff;
+	margin-top: 300px;
+	margin-left: 250px;
+	box-shadow: 0 0 15px 7px #C50DB7;
+}
+
+
+
+.flex {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.radno_vrijeme {
+	font-size: 35px;
+	color: white;
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+	padding: 20px 0;
+	background-color: #333;
+	color: white;
+}
+
+.center-footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 20px;
+	background-color: #444;
+}
+
+.kontakt p {
+	font-size: 35px;
+	color: white;
+}
+
+.kontakt .phone img, .kontakt .location img {
+	width: 30px;
+	margin: 0;
+}
+
+.kontakt .phone, .kontakt .location {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+	.kontakt .phone p, .kontakt .location p {
+		font-size: 35px;
+		margin: 1vh;
+		color: white;
+	}
+
+.radno_vrijeme p {
+	margin: 5vh;
+}
+
+footer hr {
+	border: none;
+	height: 2px;
+	background-color: white;
+	width: 80%;
+	margin: 20px auto;
+}
+
+footer p {
+	margin: 0;
+	font-size: 18px;
+}

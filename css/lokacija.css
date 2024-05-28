@@ -1,0 +1,156 @@
+﻿body {
+    margin: 0;
+    font-family: Poppins;
+}
+
+body, html {
+    scroll-behavior: smooth;
+}
+
+.naslovna {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-heigth text-align: center;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.tripsavvy.com%2Fthmb%2FG4Gb3D1Z0CkAWpBI8Jm32D0Ji8o%253d%2F6200x4650%2Ffilters%3Afill(auto%252c1)%2FMarquee1-56b6b5e83df78c0b135b6ff8.jpg&f=1&nofb=1&ipt=7aefc96156444dbee865d78383805a016f3274ab2cf4d41a3c3e942c0577442b&ipo=images");
+    background-size:cover;
+}
+
+
+    .naslovna h1 {
+        padding-top: 20vh;
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 10px #fd02b6, 1px 1px 10px #fd02b6;
+    }
+
+    .naslovna img{
+       width:35vh;
+       height:45vh;
+    }
+
+    .naslovna p {
+        font-size: 25px;
+        text-align: center;
+        color: white;
+        text-shadow: 1px 1px 10px #fd02b6, 1px 1px 10px #fd02b6;
+        padding: 10px;
+    }
+
+    .naslovna iframe {
+        border-radius: 1%;
+        background-color: #fff;
+        box-shadow: 0 0 15px 5px #fff, 0 0 20px 15px #f0f, 0 0 30px 22px #0ff;
+        height: 70vh;
+        width: 120vh;
+        margin: 10vh;
+        padding:10px;
+    }
+nav {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    height: 7.5vh;
+    width: 100%;
+    z-index: 2;
+    padding: 15px;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+    nav a {
+        text-decoration:;
+        color: white;
+        margin: 10px;
+        transition: 0.5s ease-in-out;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            border-radius: 1%;
+            font-size: 32px;
+            text-shadow: 1px 1px 10px #fd02b6, 1px 1px 10px #fd02b6;
+        }
+
+        nav a:link {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radno_vrijeme {
+    font-size: 35px;
+    color: white;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+.center-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #444;
+}
+
+.kontakt p {
+    font-size: 35px;
+    color: white;
+}
+
+.kontakt .phone img, .kontakt .location img {
+    width: 30px;
+    margin: 0;
+}
+
+.kontakt .phone, .kontakt .location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .kontakt .phone p, .kontakt .location p {
+        font-size: 35px;
+        margin: 1vh;
+        color: white;
+    }
+
+.radno_vrijeme p {
+    margin: 5vh;
+}
+
+footer hr {
+    border: none;
+    height: 2px;
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+}
+}
+    
+

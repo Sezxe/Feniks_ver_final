@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #443c3c;
+}
+
+body, html {
+    scroll-behavior: smooth;
+}
+
+.slika {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1490247.jpg&f=1&nofb=1&ipt=920e1fbf7ed9bda5a2efef0c1310fdf53cea0c2092313c2ddd8ad21a7aa4a247&ipo=images");
+    background-size: cover;
+    background-color: #fff;
+    box-shadow: 0 0 15px 7px #fff, 0 0 25px 15px #f0f, 0 0 35px 22px #0ff;
+}
+
+.eventi ul {
+    padding-top: 5vh;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 10px #fd02b6, 1px 1px 10px #fd02b6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.eventi li {
+    padding: 1vh;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    height: 7.5vh;
+    width: 100%;
+    z-index: 2;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+    nav a {
+        color: white;
+        margin: 10px;
+        transition: 0.5s ease-in-out;
+        text-decoration: none;
+    }
+
+        nav a:hover {
+            border-radius: 1%;
+            font-size: 32px;
+            text-shadow: 1px 1px 10px #fd02b6, 1px 1px 10px #fd02b6;
+        }
+
+        nav a:link, nav a:visited {
+            color: white;
+            text-decoration: none;
+        }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radno_vrijeme {
+    font-size: 35px;
+    color: white;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+.center-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #444;
+}
+
+.kontakt p {
+    font-size: 35px;
+    color: white;
+}
+
+.kontakt .phone img, .kontakt .location img {
+    width: 30px;
+    margin:0;
+}
+
+.kontakt .phone, .kontakt .location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .kontakt .phone p, .kontakt .location p {
+        font-size: 35px;
+        margin:1vh;
+        color: white;
+    }
+
+.radno_vrijeme p {
+    margin:5vh;
+}
+
+footer hr {
+    border: none;
+    height: 2px;
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+}
